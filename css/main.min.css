@@ -8839,7 +8839,7 @@ a:focus {
 .arrow-to-top {
 	position: fixed;
 	bottom: 20px;
-	left: 1800px;
+	left:  25px;
 	width: 50px;
 	height: 50px;
 	background: #d25e39;
@@ -9422,34 +9422,8 @@ header .header_review-img img {
 
 
 /*ЦВЕТ ТЕКСТА КАСТОМ КОНЕЦ*/
-/*анимация текста*/
 
-/*@import url(https://fonts.googleapis.com/css?family=Comfortaa:700&subset=latin,cyrillic);
 
-a {
-  font-family: 'Comfortaa', cursive;
-  font-weight: bold;
-  font-size: 3.5em;
-  color: #000;
-  text-decoration: none ;
-}
-
-div {
-  width: 50%;
-  text-align: center;
-  padding: 5px;
-}
-.fun-hover {
-  background-image: -webkit-linear-gradient(left, cadetblue 50%, yellow 50%);
-  background-image: linear-gradient(to right, cadetblue 50%, yellow 50%);
-  background-position: 0;
-  background-size: 200%;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-.fun-hover:hover {
-  background-position: -100%;
-}*/
 
 
 /* Сайт с цветами:  https://html5book.ru/css-colors/;
