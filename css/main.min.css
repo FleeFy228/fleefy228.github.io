@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 
+#timer {font: bold 14pt }
+
 body.compensate-for-scrollbar {
 	overflow: hidden
 }
@@ -9208,6 +9210,10 @@ header .header_review-img {
 	text-align: right
 }
 header .header_review-img img {
+	right:-10px;
+	top:15px;
+	height:400px;
+	width:400px;
 	max-width: 400px
 }
 /*.items {
