@@ -9422,8 +9422,8 @@ header .header_review-img img {
 
 
 /*ЦВЕТ ТЕКСТА КАСТОМ КОНЕЦ*/
-
-
+/*
+*/
 
 
 /* Сайт с цветами:  https://html5book.ru/css-colors/;
@@ -9631,12 +9631,12 @@ header .header_review-img img {
 	margin-top: -18px;
 	right: 20px
 }
-.faq {
+/*.faq {
 	padding: 80px 20%;
 	background: url(../img/bg-4.png) 50% 50% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover
-}
+}*/
 .faq .section-title .decoration {
 	margin: 0 auto;
 	margin-top: 20px
