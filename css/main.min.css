@@ -1,7 +1,22 @@
 @charset "UTF-8";
 
+/*Новый год*/
+body {
+  margin: 0;
+  background-color: #111;
+}
+.sf-snow-flake {
+  position: fixed;
+  top: -20px;
+  z-index: 99999;
+}
+.sf-snow-anim {
+  top: 110%;
+}
+
 
 #timer {font: bold 14pt }
+/*Новый год*/
 
 body.compensate-for-scrollbar {
 	overflow: hidden
