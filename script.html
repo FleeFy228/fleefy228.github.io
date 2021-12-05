@@ -34,6 +34,9 @@
         if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
         return false;
         }
+        if(e.ctrlKey && e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+        return false;
+        }
         if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
         return false;
         }
@@ -44,6 +47,7 @@
         </script>
     </head>
     <body>
+        <body oncontextmenu="return false;">
         <a class="arrow-to-top hidden" data-scroll-goto="0"><i class="material-icons">arrow_upward</i></a>
         <div id="vk_community_messages"></div>
         <header data-scroll-index='0'>
@@ -837,7 +841,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-4">
                         <div class="footer_desc">
-                            <h5><span>FleeFy </span>SCRIPTS</h5>
+                            <h5><span>FleeFy </span>SKRIPTS</h5>
                             <p></p>
                         </div>
                     </div>

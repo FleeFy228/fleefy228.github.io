@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+#timer {font: bold 14pt }
+
 body.compensate-for-scrollbar {
 	overflow: hidden
 }
@@ -1952,11 +1958,11 @@ pre code {
 		max-width: 25%
 	}
 	.col-lg-4 {
-		-webkit-box-flex: ;
-		-webkit-flex: 0 0 99.33333%;
-		-ms-flex: 0 0 99.33333%;
-		flex: 0 0 99.33333%;
-		max-width: 99%
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 33.33333%;
+		-ms-flex: 0 0 33.33333%;
+		flex: 0 0 33.33333%;
+		max-width: 33.33333%
 	}
 	.col-lg-5 {
 		-webkit-box-flex: 0;
@@ -8821,8 +8827,12 @@ a {
 	color: #000
 }
 a:hover {
-	text-decoration: none
+	color: 	orange!important;
+	text-decoration:none !important;
 }
+
+
+
 a:focus {
 	outline: 0;
 	border: none
@@ -8833,7 +8843,7 @@ a:focus {
 .arrow-to-top {
 	position: fixed;
 	bottom: 20px;
-	left: 20px;
+	left:  25px;
 	width: 50px;
 	height: 50px;
 	background: #d25e39;
@@ -8858,6 +8868,9 @@ a:focus {
 	-o-transition: all .2s ease;
 	transition: all .2s ease
 }
+
+
+
 .section-title {
 	text-align: center
 }
@@ -9199,15 +9212,19 @@ header .header_review-img {
 	text-align: right
 }
 header .header_review-img img {
+	right:-10px;
+	top:15px;
+	height:400px;
+	width:400px;
 	max-width: 400px
 }
-.items {
+/*.items {
 	position: relative;
 	background: url(../img/bg-2.png) 50% 50% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 100px 28% 100px 9.5%
-}
+}*/
 .items_title {
 	text-align: left
 }
@@ -9281,8 +9298,8 @@ header .header_review-img img {
 }
 .items .item_body-img {
 	text-align: center;
-	margin-top: -6px;
-	margin-left: 4px
+	margin-top: -26px;
+	margin-left: 34px
 }
 .items .item_body-img img {
 	width: 70%
@@ -9299,14 +9316,14 @@ header .header_review-img img {
 	display: block
 }
 .items .item_body-list {
-	margin-top: 1px
+	margin-top: 10px
 }
 .items .item_body-list ul {
 	list-style: none
 }
 .items .item_body-list ul li {
 	font-size: 14px;
-	padding: 1px 0!important;
+	padding: 4px 0!important;
 	line-height: 16px
 }
 .items .item_body-list ul li img {
@@ -9385,10 +9402,10 @@ header .header_review-img img {
 	color: #d25e39
 }
 .review {
-	background: url(../img/bg-4.png) 50% 50% no-repeat;
+	background: url(../img/bg-4.png) 1% 1% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding: 80px 17%;
+	padding: 1px 1%;
 	text-align: center
 }
 
@@ -9396,26 +9413,42 @@ header .header_review-img img {
 
 /*ЦВЕТ ТЕКСТА КАСТОМ НАЧАЛО*/
 
-.items .FleeFyORAN .item_body-title h3 span {
-	color: #d25e39
+.items .FleeFyWhite .item_body-title h3 span {
+	color: #FFFFFF
 }
-.items .FleeFyORAN .item_body-list span {
-	color: #d25e39
+.items .FleeFyWhite .item_body-list span {
+	color: #FFFFFF
 }
-.items .FleeFyORAN .item-btn a {
-	background: #d25e39;
-	border-color: #d25e39
+.items .FleeFyWhite .item-btn a {
+	background: #696969;
+	border-color: #FFFFFF
 }
-.items .FleeFyORAN .item-btn a:hover {
+.items .FleeFyWhite .item-btn a:hover {
 	background: #fff;
-	color: #d25e39
+	color: #FFFFFF
 }
-.review {
-	background: url(../img/bg-4.png) 50% 50% no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-	padding: 80px 17%;
-	text-align: center
+
+
+/*ЦВЕТ ТЕКСТА КАСТОМ КОНЕЦ*/
+/*
+*/
+
+
+/* Сайт с цветами:  https://html5book.ru/css-colors/;
+/*ЦВЕТ ТЕКСТА КАСТОМ НАЧАЛО*/
+.items .FleeFyWhite .item_body-title h3 span {
+	color: #00FF00
+}
+.items .FleeFyWhite .item_body-list span {
+	color: #00FF00
+}
+.items .FleeFyWhite .item-btn a {
+	background: #696969;
+	border-color: #00FF00
+}
+.items .FleeFyWhite .item-btn a:hover {
+	background: #fff;
+	color: #00FF00
 }
 
 /*ЦВЕТ ТЕКСТА КАСТОМ КОНЕЦ*/
@@ -9598,12 +9631,12 @@ header .header_review-img img {
 	margin-top: -18px;
 	right: 20px
 }
-.faq {
+/*.faq {
 	padding: 80px 20%;
 	background: url(../img/bg-4.png) 50% 50% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover
-}
+}*/
 .faq .section-title .decoration {
 	margin: 0 auto;
 	margin-top: 20px

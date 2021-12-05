@@ -27,11 +27,15 @@
         
         <script src="wicart.js"  type="text/javascript" ></script>
         <script type="text/javascript">
+
         document.onkeydown = function(e) {
         if(event.keyCode == 123) {
         return false;
         }
         if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+        }
+        if(e.ctrlKey && e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
         return false;
         }
         if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
@@ -43,6 +47,7 @@
         }
         </script>
     <body>
+        <body oncontextmenu="return false;">
         <a class="arrow-to-top hidden" data-scroll-goto="0"><i class="material-icons">arrow_upward</i></a>
         <div id="vk_community_messages"></div>
         <header data-scroll-index='0'>
