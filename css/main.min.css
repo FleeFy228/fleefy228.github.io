@@ -8827,6 +8827,7 @@ a {
 	text-decoration: none;
 	color: #000
 }
+/*Цвет кнопок ауф*/
 a:hover {
 	color: 	orange!important;
 	text-decoration:none !important;

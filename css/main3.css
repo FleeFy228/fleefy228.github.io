@@ -8827,8 +8827,9 @@ a {
 	text-decoration: none;
 	color: #000
 }
+/*Цвет кнопок ауф*/
 a:hover {
-	color: 	orange!important;
+	color: 	#000080!important;
 	text-decoration:none !important;
 }
 
@@ -9018,7 +9019,7 @@ a:focus {
 	color: #111
 }
 header {
-	background: url(../img/bg-4.png) 0 0 no-repeat;
+	/*background: url(../img/bg-4.png) 0 0 no-repeat;*/
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding-bottom: 150px;
