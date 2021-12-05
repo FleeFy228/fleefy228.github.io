@@ -5,6 +5,7 @@
 
 
 
+
 document.addEventListener('mousemove',function(e){
   if( e.target.getAttribute('unselectable')=='on' )
     e.target.ownerDocument.defaultView.getSelection().removeAllRanges();
