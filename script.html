@@ -2,7 +2,34 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>FleeFy</title>
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <configuration>
+
+         <system.webServer>
+
+                      <rewrite>
+                          <rules>
+                             <rule name="Redirect .html extension" stopProcessing="false">
+                               <match url="^(.*).html$" ignoreCase="true" />
+                          <conditions logicalGrouping="MatchAny">
+                            <add input="{URL}" pattern="(.*).html$" ignoreCase="false" />
+                          </conditions>
+                               <action type="Redirect" url="{R:1}" redirectType="Permanent" />
+                             </rule>
+                             <rule name="hide .html extension" stopProcessing="true">
+                               <match url="^(.*)$" ignoreCase="true" />
+                          <conditions>
+                            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+                            <add input="{REQUEST_FILENAME}.html" matchType="IsFile" />
+                          </conditions>
+                               <action type="Rewrite" url="{R:0}.html" />
+                             </rule>
+                          </rules>
+                      </rewrite>
+         </system.webServer>
+        </configuration>
         <link rel="stylesheet" href="newyear.css">
         <script src="js/script_newyear.js" defer></script>
         <meta name="description" content="Множество скриптов на соц.сети от FleeFy">
