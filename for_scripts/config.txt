@@ -1,0 +1,20 @@
+[Config]
+config_mode = yes
+open_browser = yes
+
+[VKL_default]
+use_without_acc = yes
+url = https://vk.com/music/playlist/554574513_6_d1a67f183b705d878d
+
+[VKL_AUTH]
+use_account = no
+login = 
+password = 
+url = 
+seconds_listen = 110
+
+[FAST_START]
+skip_design = yes
+
+[Version_VKL]
+Actual = Version 2
