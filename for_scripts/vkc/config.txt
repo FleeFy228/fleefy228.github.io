@@ -1,3 +1,4 @@
 [VKC 4.0]
 token = 
-album id = 
+link post = 
+text = 
